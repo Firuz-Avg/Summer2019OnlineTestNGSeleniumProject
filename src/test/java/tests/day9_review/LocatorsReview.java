@@ -15,6 +15,7 @@ public class LocatorsReview {
 
     @BeforeMethod
     public void setup(){
+
         driver = BrowserFactory.getDriver("chrome");
         driver.get("http://practice.cybertekschool.com/");
     }

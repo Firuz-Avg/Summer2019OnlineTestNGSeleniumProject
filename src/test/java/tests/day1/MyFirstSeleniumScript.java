@@ -8,7 +8,8 @@ import org.openqa.selenium.support.ui.Select;
 
 public class MyFirstSeleniumScript {
     public static void main(String[] args) {
-        // we have to setup webdriver based on the browser that we gonna use
+
+        // we have to setup webdriver based on the browser that we gonna use.
         WebDriverManager.chromedriver().setup();
         // We need to create an onject of appropriate class
         ChromeDriver driver = new ChromeDriver();
