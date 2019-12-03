@@ -16,6 +16,7 @@ public class MyFirstSeleniumScript {
         // let's open gooogle.con
         driver.manage().window().maximize();
         driver.get("https://www.facebook.com");
+
 //        driver.findElement(By.id("u_0_b")).click();
 //        driver.findElement(By.id("email")).sendKeys("Alik");
 //        driver.findElement(By.id("pass")).sendKeys("Fatush");
